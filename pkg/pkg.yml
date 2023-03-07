@@ -1,0 +1,4 @@
+git:
+  - git@github.com:user-tax-pkg/_.git
+  - git@github.com:user-tax-pkg/user.git
+
