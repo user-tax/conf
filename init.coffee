@@ -1,8 +1,8 @@
 #!/usr/bin/env coffee
 
-> @u7/uridir
+> @w5/uridir
   zx/globals:
-  @u7/yml > load
+  @w5/yml > load
   path > join basename dirname
   fs > opendirSync existsSync rmSync symlinkSync
 

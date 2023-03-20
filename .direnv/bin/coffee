@@ -11,5 +11,5 @@ fi
 
 exec node --trace-uncaught \
   --expose-gc \
-  --loader "@u7/node-loader" \
+  --loader "@w5/loader" \
   --unhandled-rejections=strict $filepath ${@:2:$#}

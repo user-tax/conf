@@ -1,17 +1,17 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@u7/node-loader': ^0.0.49
-  '@u7/read': ^0.0.6
-  '@u7/uridir': ^0.0.2
-  '@u7/yml': ^0.0.5
+  '@w5/loader': ^0.0.1
+  '@w5/read': ^0.0.1
+  '@w5/uridir': ^0.0.1
+  '@w5/yml': ^0.0.1
   zx: ^7.2.1
 
 dependencies:
-  '@u7/node-loader': 0.0.49
-  '@u7/read': 0.0.6
-  '@u7/uridir': 0.0.2
-  '@u7/yml': 0.0.5
+  '@w5/loader': 0.0.1
+  '@w5/read': 0.0.1
+  '@w5/uridir': 0.0.1
+  '@w5/yml': 0.0.1
   zx: 7.2.1
 
 packages:
@@ -66,43 +66,47 @@ packages:
     resolution: {integrity: sha512-113D3mDkZDjo+EeUEHCFy0qniNc1ZpecGiAU7WSo7YDoSzolZIQKpYFHrPpjkB2nuyahcKfrmLXeQlh7gqJYdw==}
     dev: false
 
-  /@u6x/jsext/0.0.27:
-    resolution: {integrity: sha512-JWYU9TgVNp6Te8kP40LezAL6/kOVHsUtwaWj036hw1mLa5T80F8Ntrnnc8yG+2gEAq2VoY2lBLsj/7vMFJgXLw==}
-    dev: false
-
   /@u7/camel/0.0.28:
     resolution: {integrity: sha512-1Sh7T5na9XpnNOs9ecKEsBRCQ+Sn+FVM0TEF12edxb/eOY460H+z2ciphkDUhBE9MwSXxt03LoyQMwYDGIzv4w==}
     dev: false
 
-  /@u7/node-loader/0.0.49:
-    resolution: {integrity: sha512-DKQGd5M8QHm42P1gje0QLbqnF5lJkcCf+M0xOUNjiilHlCcz67KQbWEkSTTLqaXvt05EmlMjxNLFVqIkw2A7CQ==}
+  /@u7/walk/0.0.10:
+    resolution: {integrity: sha512-SSmv/sRSylKEB7oU9DTXtSkr922D/9n2JJqsilL6cHVpLWMix22sKqA2ZHDdkBRkeTTTnnyxOXaZGTt2ZIGdsA==}
+    dev: false
+
+  /@u7/write/0.0.9:
+    resolution: {integrity: sha512-50PbebAab1VHZUF49CdP6l60UKJFti081mNnPg5ZcPzAgUlTK0xS9dFNJv30wtBp/h+/AL0/ZOfLpmjjb1/7CA==}
+    dev: false
+
+  /@w5/jsext/0.0.1:
+    resolution: {integrity: sha512-y/vvMqBD0RhnZccWHj6LSqXU4BlM+em6HBxCO19p+ujrENVK9jCUxQZ83hVUpTUaNQebBWDJfotwBpvuIGW4JQ==}
+    dev: false
+
+  /@w5/loader/0.0.1:
+    resolution: {integrity: sha512-6Da1zwAP9aFt3Rs0HCfwM5QbyZ/DAzXc0ImUGPhbANCfC29Jm3xG4E7s3+MD4Abbr2taqb2BeOiGcGGOZSomTQ==}
     dependencies:
-      '@u6x/jsext': 0.0.27
-      coffee_plus: 0.0.55
+      '@w5/jsext': 0.0.1
+      coffee_plus: 0.0.58
       coffeescript: 2.7.0
     dev: false
 
-  /@u7/read/0.0.6:
-    resolution: {integrity: sha512-j4uIfSfkZDZ+6zupIbpB+6TwIkOb7OsC5gYAsVYpJu0AXCMoS34MpRWaW122hNIK1TqlpJcmufVHp12O2H8KHw==}
+  /@w5/read/0.0.1:
+    resolution: {integrity: sha512-v/D6N/2OCOVHzaYHzoD/SmKn7yuvSZ/Kj7/HrPoWZOoPkXciZtzfsDXh+ShVvf5zIel6FwejM+F35pK2lQGIyg==}
     dev: false
 
-  /@u7/uridir/0.0.2:
-    resolution: {integrity: sha512-tyuFdhcxmCxE/iYpNknjc37TkffJLxVnvW6wCJyJ/CBBBeWjEe1FWtsORK4jyR+pI0E8UF0iP+9Hz3T3Y7pCtw==}
+  /@w5/uridir/0.0.1:
+    resolution: {integrity: sha512-5ZNTzgVhQHvfI1apigB10XTPjTg5KgMRxdRzda3nUrRTVvzOW1b5fVkFBwv6iqDurNJIe2jiGL97Ge1445p9/g==}
     dev: false
 
-  /@u7/walk/0.0.8:
-    resolution: {integrity: sha512-4VUVWDvEDNOFQXzeP8uPQ+PStd62cqVM+U85nbyP7DgSTBe2rTN4HDdicEYXHgAMCbZ/mQ1VTcPJWUnFzx5F7Q==}
+  /@w5/write/0.0.1:
+    resolution: {integrity: sha512-VyQXX2C3yRqfS7D5B+yCcsR1tvzZ1DzPLi5kugBOe/EeL+LOD3ftFamfik7wQr2TG7XQ7VF0snUpqVLaytwfOA==}
     dev: false
 
-  /@u7/write/0.0.8:
-    resolution: {integrity: sha512-cas5IbKVQzbZieMFfo4lEJ3tn4wLme40hXHjkgt2EWuqpklbxFu5DI/eR20whM+XLOz3y+NxVuNXy5zXuRqdIw==}
-    dev: false
-
-  /@u7/yml/0.0.5:
-    resolution: {integrity: sha512-3sSUkEfyhlUOTmU8TBwTg0svM05CYrWFkqokfZdgz2hqxbA0XZr0Al8IpPqxCndcFD2ali9qe2nAJ+JUFQtQGQ==}
+  /@w5/yml/0.0.1:
+    resolution: {integrity: sha512-ePfJiLsEkP3QZoGACXXQREcHwXBKxzuW5AbLWA8nufC+dtjbE6g/EmLCriz1UrcORLTlp8v0WIa8zj1a6cGnpQ==}
     dependencies:
-      '@u7/read': 0.0.6
-      '@u7/write': 0.0.8
+      '@w5/read': 0.0.1
+      '@w5/write': 0.0.1
       js-yaml: 4.1.0
     dev: false
 
@@ -143,16 +147,16 @@ packages:
       wrap-ansi: 7.0.0
     dev: false
 
-  /coffee_plus/0.0.55:
-    resolution: {integrity: sha512-SenFgyHeF7FHZXC9YLRPNpv44VHQ0fDeGpYan6hhcUmQnD26f23ZLPDOHZGZnXmB1yovs78hFJ2NucLYjhO32A==}
+  /coffee_plus/0.0.58:
+    resolution: {integrity: sha512-EIfbi4qV+TcsoHaVnwA6BnfiMbIfb2w19EEGWwkeJmbI+n3fxajUg3fnYtMeEAJYh0WGUufJ/x6Bq/CuS1TgVw==}
     hasBin: true
     dependencies:
       '@u7/camel': 0.0.28
-      '@u7/walk': 0.0.8
-      '@u7/write': 0.0.8
+      '@u7/walk': 0.0.10
+      '@u7/write': 0.0.9
       fs-extra: 11.1.0
       lodash-es: 4.17.21
-      yargs: 17.7.0
+      yargs: 17.7.1
     dev: false
 
   /coffeescript/2.7.0:
@@ -508,8 +512,8 @@ packages:
     engines: {node: '>=12'}
     dev: false
 
-  /yargs/17.7.0:
-    resolution: {integrity: sha512-dwqOPg5trmrre9+v8SUo2q/hAwyKoVfu8OC1xPHKJGNdxAvPl4sKxL4vBnh3bQz/ZvvGAFeA5H3ou2kcOY8sQQ==}
+  /yargs/17.7.1:
+    resolution: {integrity: sha512-cwiTb08Xuv5fqF4AovYacTFNxk62th7LKJ6BL9IGUpTJrWoU7/7WdQGTP2SjKf1dUNBGzDd28p/Yfs/GI6JrLw==}
     engines: {node: '>=12'}
     dependencies:
       cliui: 8.0.1
